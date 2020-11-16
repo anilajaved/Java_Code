@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [suite1]">
+  <test parallel="none" name="gmail_testcases(failed)" preserve-order="true">
+    <groups>
+      <run>
+        <include name="functest"/>
+        <include name="checkin"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.selenium.google.tests.LoginTest">
+        <methods>
+          <include name="blankUserNameRightPasswordLoginTest1"/>
+        </methods>
+      </class> <!-- com.selenium.google.tests.LoginTest -->
+    </classes>
+  </test> <!-- gmail_testcases(failed) -->
+</suite> <!-- Failed suite [suite1] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [suite]">
+  <test parallel="none" name="gamil_testcases(failed)" preserve-order="true">
+    <classes>
+      <class name="com.selenium.google.tests.LoginTest">
+        <methods>
+          <include name="b_blankUser"/>
+          <include name="a_blankUserNameRightPasswordLoginTest"/>
+        </methods>
+      </class> <!-- com.selenium.google.tests.LoginTest -->
+      <class name="com.selenium.google.tests.NewTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.selenium.google.tests.NewTest -->
+    </classes>
+  </test> <!-- gamil_testcases(failed) -->
+</suite> <!-- Failed suite [suite] -->
